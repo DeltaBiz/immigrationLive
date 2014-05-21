@@ -16,7 +16,7 @@ $isHome="YES";
 include 'header.php';
 ?>
 <div class="leftContent">
-<?= $content; ?>
+testin 123 <?= $content; ?>
 </div>
 
 <div class="rightContent">
