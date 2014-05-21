@@ -1,0 +1,609 @@
+body {  text-align:center; background-color:#FFF; color:#333; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:15px;}
+.outer { width: 998px; height: auto; margin:0 auto; text-align:left; position:relative;}
+.inner { width: 998px; height: auto; overflow:hidden;  }
+#bannerbg{
+	background:url(../images/expandbg.png) top left repeat-x; height:107px; width:1200px; position:absolute;  
+	right: 1099px; top: 249px;}
+#header { position:relative; float:left; background:url(../images/headerBackground.png) repeat-x top center #FFFFFF;  width: 100%; height:191px; text-align:center;}
+#logoBox{  width: 998px; height:61px; margin-top:2px;}
+#divorceandfamily{ height:61px; width:550px; background:url(../images/divorceandfamilylaw.png) top left no-repeat; float:left; }
+#cityholder{ float:left; text-align:right; width:410px; font-size:28px; font-weight:700; height:59px; color:#333333; font-style:italic; } 
+#searchArea{ color:#5bbd01; font-size:16px; position:relative; margin-top:10px; }
+#searchArea form{ padding:0px; margin:0px;}
+#searchArea input{ border:1px solid #CCC; padding:2px; float:none; font-size:14px;}  
+#submitInfo{ background:url(../images/submit_info.png) top left no-repeat; width:196px; height:46px; float:left; display:block; margin-top:10px;}
+
+#currentCity{ float:right; width:160px; }
+#currentCity .cityName{   font-size:28px; font-weight:700; color:#333333; font-style:italic; display:block; text-align:right; margin-top:10px; }
+#currentCity  a{ font-size:11px; color:#5bbd01; text-decoration:underline; display:block; margin-top:10px;}
+
+#fullouter{ width:100%; background:url(../images/outterbg.png) top left repeat-x; }
+#preouter{ background:url(../images/preouter.png) top left no-repeat; width:1200px; margin:0 auto; }
+
+#namebar {
+    background: url("images/namebar-bg.png") repeat-x scroll 0 0 transparent;
+    color: #FFFFFF;
+    height: 67px;
+	font-family:Verdana;
+}
+#namebar .wrap {
+    position: relative;
+}
+#namebar .wrap a {
+    display: block;
+    font-size: 0;
+    height: 67px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#namebar h1.name {
+    float: left;
+    font-size: 44px;
+    font-weight: bold;
+    letter-spacing: 0.035em;
+    line-height: 67px;
+	color:#fff;
+	padding-bottom:0px;
+}
+#namebar .contact {
+    float: left;
+    font-size: 22px;
+    left: 80%;
+    letter-spacing: 0.025em;
+    line-height: 67px;
+    margin-left: -175px;
+    position: absolute;
+    text-align: center;
+    width: 350px;
+	padding-bottom:0px;
+}
+
+#namebar .contact .label {
+    color: #c1d72e;
+}
+
+#namebar .contact .number {
+    color: #fff;
+}
+
+/*
+#namebar .consultation {
+	margin-right:26px;
+    color: #c1d72e;
+    float: right;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.045em;
+    line-height: 67px;
+	padding-bottom:0px;
+}
+*/
+
+#empire { position:relative; float:right; width:650px; height:66px;}
+#empire ul { display:inline; }
+#empire ul li {list-style: none; display: inline; height:66px;}
+
+#criminal a{ position:relative; float:left; width:214px; height:66px; background:url(../images/empireCriminal.png) top left no-repeat; text-indent:-5000px; border:0; cursor:pointer;}
+#criminal a:hover { background-position:0 -67px;}
+#impaired a{ position:relative; float:left; width:213px; height:66px; background:url(../images/empireImpaired.png) top left no-repeat; text-indent:-5000px; border:0; cursor:pointer;}
+#impaired a:hover { background-position:0 -65px;}
+#traffic a { position:relative; float:left; width:211px; height:66px; background:url(../images/empireTraffic.png) top left no-repeat; text-indent:-5000px; border:0; cursor:pointer;}
+#traffic a:hover { background-position:0 -66px;}
+
+.menu {	position:relative; float:left; margin-top:4px; margin-left:0px; width:100%; }
+.menu ul { display: inline; float:left;} 
+.menu ul li { list-style: none;	display: inline; float:left;  }
+.menu ul li a { position:relative; display:block; width:138px; text-align:center; height:37px; background:url(../images/nav.png) top left no-repeat; font-weight:bold; font-family:Verdana; font-style:italic; font-size:14px; padding-top:15px; padding-bottom:4px; color:#fff; text-decoration:none; }
+.menu ul li a li { display:none;}
+.menu ul li a:hover ul {display:block; }
+
+.menu span { font-size:17px; }
+.menu a:hover { background:url(../images/navov.png) top left no-repeat; color:#333333;}
+.menu li.active a { background:url(../images/navov.png) top left no-repeat; color:#333333;}
+.menu ul li ul { position:absolute; float:left; left:0; top:56px; width:133px; background: #5bb40a; display:none; padding-bottom:10px; -webkit-border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px;
+-moz-border-radius-bottomright: 6px;
+-moz-border-radius-bottomleft: 6px;
+border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px; }
+.menu ul li ul li {background:none; width:138px; text-align:center;}
+.menu ul li.active ul a { background:none; padding:4px; width:120px; height:auto; margin:0px; font-size:12px; color:#fff; }
+.menu ul li.active ul a:hover { color:#333333; }
+.menu ul li ul a { background:none; padding:4px; width:120px; height:auto; margin:0px; font-size:12px; }
+.menu ul li ul a span { font-size:14px; }
+.menu ul li:hover ul{ display:block;}
+.menu ul li:hover ul li a:hover {background:none;}
+
+#submenu_2 {  margin-left:140px; padding-top:5px; z-index:50;}
+#submenu_3 {  margin-left:278px; padding-top:5px; z-index:50; }
+#submenu_4 {  margin-left:416px; padding-top:5px; z-index:50;}
+#submenu_5 {  margin-left:554px; padding-top:5px; z-index:50; } 
+#submenu_6 { margin-left:692px; padding-top:5px; z-index:50; } 
+#submenu_7 {  margin-left:830px; padding-top:5px; z-index:50; } 
+
+#actionBar { position:relative; width:997px; height:40px; background:url(../images/barBackground.png) no-repeat; font-family:Tahoma, Geneva, sans-serif; }
+#actionBar ul li { list-style: none; display: inline; float:left; height:40px; padding-top:10px; padding-left:60px; }
+#actionBar ul li a:hover {color:#ccc;}
+#actionBar a.ppc { color:#FFF; font-size:14px; font-weight:bold; }
+
+#actionBar1 { position:relative; margin-left:25px; float:left; width:580px; height:40px; background:url(../images/barBackground1.png) no-repeat; font-family:Tahoma, Geneva, sans-serif; }
+#actionBar1 ul li { list-style: none; display: inline; float:left; height:40px; padding-top:10px; padding-left:47px; }
+#actionBar1 ul li a:hover {color:#ccc;}
+
+#actionBar2 { position:relative; margin-right:40px; float:right; width:300px; height:40px; background:url(../images/barBackground2.png) no-repeat; font-family:Tahoma, Geneva, sans-serif; }
+#actionBar2 ul li { list-style: none; display: inline; float:left; height:40px; padding-top:10px; padding-left:30px; }
+#actionBar2 ul li a:hover {color:#ccc;}
+
+#actionBar2b { position:relative; margin-right:10px; float:right; width:300px; height:40px; background:url(../images/barBackground2.png) no-repeat; font-family:Tahoma, Geneva, sans-serif; }
+#actionBar2b ul li { list-style: none; display: inline; float:left; height:40px; padding-top:10px; width:280px; margin-left:-10px; text-align:center;}
+#actionBar2b ul li a:hover {color:#ccc;}
+
+
+#actionBarNew { width:357px; height:30px; font-size:11px; font-family:Tahoma, Geneva, sans-serif; }
+#actionBarNew ul li { list-style: none; display: inline; float:left; height:40px; padding-top:10px; padding-left:10px;}
+#actionBarNew ul li a{color:#5bbd01;}
+#actionBarNew ul li a:hover {color:#448d00;}
+
+#sendToNew a { position:relative; background:transparent url(../images/icons/send1.png) center left no-repeat; width:70px; line-height:22px; height:18px; padding-left:20px;  color:#FFF; }
+#clipToNew  a { position:relative; background:transparent url(../images/icons/favourites1.png) center left no-repeat; width:70px; line-height:22px; height:18px; padding-left:20px;  color:#FFF;}
+#printToNew  a { position:relative; background:transparent url(../images/icons/print1.png) center left no-repeat; width:70px;  line-height:22px; height:18x; padding-left:20px; color:#FFF;}
+
+#sendTo a { position:relative; background:transparent url(../images/icons/mail.png) no-repeat; width:150px; height:28px; padding-left:25px; padding-bottom:5px; color:#FFF; }
+#clipTo a { position:relative; background:transparent url(../images/icons/pin.png) no-repeat; width:150px; height:28px; padding-left:25px;  padding-bottom:5px;color:#FFF;}
+#printTo a { position:relative; background:transparent url(../images/icons/print.png) no-repeat; width:150px; height:28px; padding-left:25px;  padding-bottom:5px;color:#FFF;}
+
+
+#searchToHome{ width:200px; margin-left:125px;}
+
+
+#cityLink{
+	width:300px;
+	line-height:36px;
+	text-align:center;
+}
+
+#cityLink a{
+	color:#ffffff;
+	font-weight:bold;
+	text-align:center;
+}
+
+.mainContent {	text-align:left; vertical-align:top;}
+.mainContent ul li { list-style-type:disc; list-style-position:outside; }
+
+#subHeader {float:left; width:410px; height:104px; padding-top:10px;}
+
+#headerLinkLawyer{
+	width:998px;
+	height:65px;
+	margin: 0 auto;
+	color:#eeeeee;
+	text-shadow: 0 -1px 0 #000000;
+	font-family: times, serif;
+}
+
+#headerLinkLawyer a{
+	color:#ffffff;
+	display:block;
+	height:100%;
+	width:100%;
+}
+
+#headerLinkLawyer .lawyerTitle{
+	float:left;
+	height:60px;
+	width:270px;
+	font-size:36px;
+	line-height:55px;
+	margin-top:5px;
+	display:block;
+}
+
+#headerLinkLawyer .lawyerPhone{
+	float:left;
+	height:60px;
+	width:360px;
+	font-size:32px;
+	line-height:55px;
+	display:block;
+	text-align:center;
+	margin-top:5px;
+}
+
+#headerLinkLawyer .lawyerPhone span{
+	color:#5bbd01;
+}
+
+#headerLinkLawyer .lawyerConsult{
+	float:right;
+	height:60px;
+	width:220px;
+	font-size:28px;
+	line-height:55px;
+	display:block;
+	text-align:right;
+	margin-top:5px;
+	color:#5bbd01;
+	margin-right:10px;
+}
+
+
+
+#homeUpper { width:984px; height:268px; background:url(../images/homeinnerbg.gif) top left no-repeat; padding:0; margin:0; }
+#bannerPageInfo{ width:580px; height:268px; float:left;}
+#bannerPageInfo h2{
+	font-family:Verdana; 
+	font-size:32px;
+	line-height:32px;
+	font-weight:700; 
+	font-style:italic; 
+	color:#fff; 
+	margin:74px 0px 0px 0px;
+	width:550px;
+	text-align:left;
+	}
+#watchourvideos{
+	font-family:Verdana; 
+	font-size:26px;
+	line-height:26px;
+	font-weight:700; 
+	font-style:italic; 
+	color:#fff; 
+	margin:14px 0px 0px 0px;
+	width:550px;
+	text-align:left;
+	}
+#watchourvideos a{
+	width:550px;
+	display:block; text-decoration:none; color:#fff;
+	}
+#bannerPageInfo h3{
+	margin-top:10px;
+	font-family:Verdana; font-style:normal;
+	width:330px; font-size:20px; color:#fff; line-height:22px;
+	 margin-top:20px; 
+}
+
+#homeUpperVideo, #neverUpperVideo { float:left; width:388px; height:280px; margin-top:0px; }
+
+#homeUpperVideo2 { position:relative; float:right; width:260px; height:300px; }
+#homeUpperVideo3 { position:relative; float:right; width:350px; margin-right:-25px; height:300px; }
+
+
+
+.lawyer_window {
+    color: #FFFFFF;
+    float: left;
+    font-family:Verdana, Geneva, sans-serif;
+    width: 347px;
+}
+.lawyer_window_heading {
+    background: url("../images/lawyer_bg_head.png?v1") no-repeat scroll 0 0 transparent;
+    font-size: 16px;
+	line-height:19px;
+    font-weight: bold;
+    height: 67px;
+    padding-top: 15px;
+    text-align: center;
+    width: 347px;
+	font-style:italic;
+}
+#lawyer_window_info {
+    background: url("../images/lawyer_bg_body.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    position: relative;
+    top: -15px;
+    width: 347px;
+}
+#lawyer_window_info span {
+    font-style: italic;
+}
+#lawyer_window_info h1, #lawyer_window_info h2, #lawyer_window_info h3, #lawyer_window_info p {
+    color: #FFFFFF;
+}
+#lawyer_window_info h1 {
+	text-align:left;
+	font-size:18px;
+	font-weight:700;
+}
+#lawyer_window_info h3 {
+font-size:17px; font-weight:500; font-style:normal;
+}
+#lawyer_window_profile {
+    background: url("../images/lawyer_bg_foot.png") no-repeat top left;
+    clear: both;
+    color: #FFFFFF;
+    float: left;
+    font-size: 16px;
+    font-weight: 500;
+    height: 77px;
+    padding-left: 30px;
+    position: relative;
+    top: -16px;
+    width: 347px;
+}
+#lawyer_window_profile.plainbg{
+	height:70px;
+	background: url("../images/lawyer_bg_foot1.png") no-repeat  top left;
+	}
+
+#lawyer_window_profile a {
+	display:block; padding-top:26px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#lawyer_map{ width:150px; height:170px; border:0px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px; }
+#lawyer_map span{ display:none; }
+
+#neverUpper { text-align:center; width:997px; height:305px; background:url(../images/upperBackground.png) no-repeat bottom left; }
+#neverHeadCall h2 { font-family: 'Droid Serif', arial, serif; color:#A7B9C4; font-size:34px; line-height:48px;  vertical-align:middle; text-align:center; margin-left:15px; }
+#neverHeadCall{ float:left; margin:80px auto; margin-bottom:0px; width:570px; }
+
+
+#drunkDrivingUpper { position:relative; float:left; width:997px; height:342px; background:url(../images/drunkDrivingUpperBackground.png) no-repeat bottom left; }
+#drunkDrivingUpper h2 { position:relative; float:left; text-indent:-5000px; width:200px;}
+
+#searchUpper { position:relative; float:left; width:997px; height:342px; background:url(../images/searchUpperBackground.png) no-repeat bottom left; }
+#searchUpper h2 { position:relative; float:left; text-indent:-5000px; width:200px;}
+
+#signupUpper { position:relative; float:left; width:997px; height:342px; background:url(../images/signupUpperBackground.png) no-repeat bottom left; }
+#signupUpper h2 { position:relative; float:left; text-indent:-5000px; width:200px;}
+
+#lawyerUpper { position:relative; float:left; width:997px; height:345px; background:url(../images/lawyerUpperBackground2.png) no-repeat top left; }
+#lawyerUpper h1 { font-size:18px; line-height:26px; color:#FFF; }
+#lawyerUpper h1 span{ font-size:22px; } 
+#lawyerUpper p { color:#FFF;}
+#lawyerUpper p span{ color:#fff; }
+#lawyerUpper h2 { font-size:36px; line-height:38px; letter-spacing:1.15px; color:#FFF; font-style:normal; padding:0; }
+#lawyerUpperVideo { position:relative; float:right; width:370px; height:300px; padding-top:20px;}
+#lawyerUpperVideo img{ -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px;}
+
+#phoneNumber { position:relative; float:left; padding:0; color:#FFF; font-size:18px;}
+
+#lawyerInfo { position:relative; float:left; width:570px; height:250px; padding:20px 10px 30px 30px;}
+#lawyerLeft { position:relative; float:left; width:250px; padding:20px 20px 0 0; }
+#lawyerLeft p{ font-weight:bold; font-size:13px;}
+
+#lawyerRight { position:relative; float:right; width:300px; margin-top:-37px; }
+
+.lawyerList { padding:10px 0 10px 50px; border-bottom:1px solid #ccc; height:160px; width: 800px; }
+.lawyerList h2 { font-size:20px; font-weight:bold; color:#bf2e1a; font-style:normal; line-height:22px; padding-bottom:0;}
+.lawyerList h3 { color:#333; }
+#lawyerRight h2 {margin: 0 auto; margin-right:46px; background:url("../images/Button_Lawyer.png") repeat scroll 0 0 transparent;float:right;font-size:16px;font-weight:bold;height:54px;line-height:26px;padding:8px;position:relative;text-align:center;width:173px;}
+#lawyerRight h3 { font-family:Arial; float:right;padding:8px;position:relative;text-align:center;width:280px; margin-bottom:50px;font-size:36px; line-height:38px; letter-spacing:1.15px; font-weight:bold; color:#FFF; font-style:normal; padding:0;}
+
+#search { width:100%;}
+
+.formPopup{
+	/*
+	background: url('../images/form_bg.png') center center no-repeat;
+	*/
+}
+
+#gsense { position:relative; float:left; width:300px; padding-left:30px;}
+#gsenseMid { position:relative; float:left; width:290px; }
+#gsenseRgt { position:relative; float:left; width:300px; text-align:center; padding-top:50px;}
+#gsenseRgt h1 { padding-bottom:20px;}
+
+.leftContent { float:left;  margin-top:0px; width:580px; min-height:300px; padding:10px 30px 0 20px; }
+.rightContent { float:left; width:257px; }
+
+.rightColumn { position:relative; float:left; width:257px; background:url(../images/rightColumnBackground.png) no-repeat; margin-top:20px; padding:0 15px 0 15px; }
+
+.rightContent p span { color:#5bbd01; }
+
+
+.rightColumnNew { position:relative; float:left; width:347px; height:318px; background:url(../images/rightLawyer_bg.png) no-repeat; margin-top:20px; padding:0 15px 0 15px; }
+.rightColumnNew h3 { text-align:center; color:#fff; font-size:20px; padding:15px 0 30px 0; font-style:normal;}
+
+#videoInnerNew{
+	width:318px;
+	margin: 0 auto;
+}
+
+#videoInnerNew p{
+	color:#fff;
+	float:left;
+	width:170px;
+	clear:left;
+	font-size:15px;
+}
+
+#lawyerThumbRight{
+	float:right;
+	height:178px;
+	width:135px;
+	margin-right:8px;
+	margin-top:-5px;
+}
+
+.lawyerPhoneNew{
+	color:#fff;
+}
+
+.lawyerSummary{
+	font-size:16px;
+	font-family: Times, serif;
+}
+
+.contactLink{
+	width:326px;
+	height:60px;
+	line-height:60px;
+	margin-left:-5px;
+	background: url('../images/contact_bg.png') top left no-repeat;
+	clear:both;
+}
+
+.contactLink a{
+	color:#fff;
+	display:block;
+	width:100%;
+	height:100%;
+	font-size:18px;
+	line-height:60px;
+	padding-left:15px;
+}
+
+#videoList { height:360px; width:323px; font-family:Verdana, Geneva, sans-serif; }
+#videoList h3{   color: #FFFFFF;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 700;
+    padding: 15px;
+	text-align:center; }
+.videoItem { width:280px; height:100px; margin-left:10px;}
+#videoList .videoItem h3 { color:#5bbd01; font-size:13px; font-weight:700px; margin:5px 0px; padding:0px; line-height:13px; font-style:normal; text-align:left; }
+.videoItem img { float:left; padding-right:5px; }
+.videoItem h4 a, #news h4 a {font-size:12px; font-weight:bold; padding-top:5px; color:#5bbd01; padding-bottom:3px;}
+
+#news { height:200px; display:none;}
+#CriminalCharges { position:relative; float:left; width:752px; height:157px; background:url(../images/CriminalChargesBackground.png) no-repeat;}
+#DrunkDriving { position:relative; float:left; width:752px; height:157px; background:url(../images/DrunkDrivingBackground.png) no-repeat;}
+#TrafficTicket{ position:relative; float:left; width:752px; height:157px; background:url(../images/TrafficTicketBackground.png) no-repeat;}
+
+.homeButton {cursor:pointer; }
+.homeButton p { padding:90px 375px 5px 30px; font-size:12px; }
+
+
+
+#lawyerSearch { position:relative; float:left; width:480px; height:75px; margin-left:-10px; background:url(../images/searchBackground3.png) no-repeat;}
+#lawyerSearch a{
+	display:block;
+	width:100%;
+	height:100%;
+	color:#fff;
+	text-align:center;
+}
+
+#lawyerSearch h2{
+	color:#fff;
+	text-align:center;
+	padding-top:27px;
+}
+#lawyerSearch h4 { color:#fff; position:relative; float:left; width:80px; padding:18px 15px; font-size:20px; line-height:22px;}
+#searchForm { position:relative; float:left; width:250px; height:25px; padding-top:20px;}
+#searchForm .texta { height:25px; width:200px; vertical-align:middle;}
+
+#livesearch { width:200px; margin:0px;  background-color:#FFF; text-align:left; z-index:999; position:absolute; top:48px; left:50%; margin-left:-120px; padding:5px; }
+#livesearch a { color:#666; }
+#livesearch a:hover { color:#09C; }
+
+#livesearch2 { width:192px; margin:0px;  background-color:#FFF; text-align:left; z-index:999; position:absolute; right:0px; padding:5px; }
+#livesearch2 a { color:#666; display:block; margin-bottom:5px; }
+#livesearch2 a:hover { color:#5cb40a; }
+
+#searchArea form#search3{ margin-bottom:200px;}
+#livesearch3 { width:250px; margin:0px;  background-color:#f8f8f8; text-align:left; z-index:999; position:absolute; left:110px; padding:5px; }
+#livesearch3 a { color:#666; display:block; margin-bottom:5px; }
+#livesearch3 a:hover { color:#5cb40a; }
+
+.button { position:relative; float:left; background:url(../images/buttonBack.png) no-repeat; width:150px; height:80px; cursor:pointer; }
+.button p {color:#fff; font-size:20px; line-height:22px; vertical-align:middle; padding-top:20px;}
+
+#slider { position:relative; float:left; width:50px; height:120px; padding:30px; margin-top:50px; background:url(images/barBak.png) no-repeat center;}
+
+.clear{ clear:both;}
+
+#footer { position:relative; background:url(../images/footerBackground.png) repeat-x top center #FFFFFF; width: 100%; height:106px; padding-top:20px; text-align:center;}
+#footer p { color:#fff; vertical-align:middle; padding-top:5px;}
+#footer1 { position:relative; float:left; width:194px; height:54px; background:url(../images/footer1.png) no-repeat; cursor:pointer; text-indent:-5000px; }
+#footer2 { position:relative; float:left; width:198px; height:54px; background:url(../images/footer2.png) no-repeat top center; cursor:pointer; padding:20px;  text-indent:-5000px;}
+#footer3 { position:relative; float:left; width:172px; height:54px; background:url(../images/footer3.png) no-repeat; text-indent:-5000px; cursor:pointer; }
+#rainmark {position:relative; float:right; width:175px; height:58px; padding-top:10px;}
+#copyright { position:relative; float:left; width:600px; height:20px; margin-top:30px; color:#FFF; }
+#copyright a { color:#FFF; text-decoration:none; font-weight:bold; }
+#copyright a:hover { color:#666; }
+
+#signupForm {position:relative; float:left; width:450px; height:500px;}
+
+#signupForm label,input { position:relative; float:left; width:200px; height:20px; vertical-align:middle; margin-bottom:10px;}
+
+#signupForm .submit {width:auto;}
+
+#signupForm span {font-size:22px;}
+
+#signupForm img { cursor:pointer;}
+
+#errors { padding:15px; border:0 1px 0 0 solid red; }
+
+#errors h2 { font-size:14px; color:red; font-weight:bold; line-height:15px; }
+
+#errors p { font-size:10px; color:red; padding:0; line-height:11px;} 
+
+/* text handling here */
+
+a {color:#5bbd01; text-decoration:none; cursor:pointer; }
+
+a:hover { color:#448d00;}
+
+.adsense h1 { font-size:26px; font-family:Arial, Helvetica, sans-serif; line-height:16px;  padding-bottom:20px; padding-top:10px;}
+.adsense h2 { font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:16px; padding-bottom:12px;}
+.adsense p { font-size:12px; font-family:Arial, Helvetica, sans-serif; line-height:16px; padding-bottom:12px; }
+.adsense li { font-size:12px; font-family:Arial, Helvetica, sans-serif; line-height:16px; }
+.adsense ul { padding-bottom:15px; }
+
+
+h1	{font-size:26px; color:#5bbd01; line-height:26px; padding-bottom:15px; }
+
+h1 sub {font-size:9px; }
+
+h2 { font-size:14px; color:#333; line-height:14px; padding-bottom:10px; font-weight:bold;}
+
+h3 { font-size:18px; color:#333; font-family:Verdana, Geneva, sans-serif; line-height:22px; padding-bottom:10px; font-style:oblique;}
+
+p { padding-bottom:12px; font-weight:normal; color:#333;}
+
+.mainContent ul, ol { padding-bottom:12px; padding-left:15px; }
+
+blockquote { padding-left:30px; }
+
+strong { font-weight:bold;}
+
+.blue {color:#3a6f8f;}
+
+.chart	{ background-color:	#fff; color:#000; font-family:Arial,Helvetica,sans-serif;	font-size:10px; font-weight:bold;	}	
+#chart3 td	{ border: 1px outset #AFAFAF; }
+#chart3 td	{ border: 1px outset #AFAFAF;}
+#chart4 td	{ border: 1px outset #AFAFAF;}
+#chart4 td	{border:1px outset #AFAFAF;}
+.chartred	{background-color:	#fff;color:	#f00;font-family:	Arial,Helvetica,sans-serif;font-size:	10px;font-weight:	bold;}
+.chartwhite	{ background-color:	#000; color:	#fff; font-family:	Arial,Helvetica,sans-serif;	font-size:	10px;font-weight:	bold;}
+#chart3	{color:	#000; font-family: Arial,Helvetica,sans-serif; font-size:	10px;}
+/* slider stuff */
+#videoInner { position:relative; float:left; height:300px; width:300px; overflow:hidden; }
+#wrap1 { position:relative; float: left; width: 15px; height: 290px; background: transparent url(images/scrollbar-track-bottom.png) no-repeat bottom left;}
+#track1-top {position: relative;width: 21px;height: 20px;background: transparent url(images/sliderTop.png) no-repeat top left;}
+#track1-bottom {position: absolute;	width: 21px;height: 20px;bottom:0;background: transparent url(images/sliderBottom.png) no-repeat top left;}
+#track1 {position: absolute;width: 20px;height: 250px;background: transparent url(images/barBak.png) repeat-y top left;}
+#handle1 {width: 22px;height: 76px;background: transparent url(images/handle.png) no-repeat top center; }
+#newsInner { position:relative; float:left; height:100px; width:300px; overflow:hidden;	}
+#wrap2 { position:relative;float: left; width: 15px; height: 140px; background: transparent url(images/scrollbar-track-bottom.png) no-repeat bottom left;}
+#track2-top { position: relative; width: 21px; height: 20px; background: transparent url(images/sliderTop.png) no-repeat top left; }
+#track2-bottom { position: absolute; width: 21px; height: 20px; bottom:0; background: transparent url(images/sliderBottom.png) no-repeat top left; }
+#track2 { position: absolute; width: 20px; height: 110px; background: transparent url(images/barBak.png) repeat-y top left; }
+#handle2 {width: 22px;height: 76px; background: transparent url(images/handle.png) no-repeat top center;}
+.clear { clear:both;}
+
+/* lightbox */
+#bg_fade {background-color:#555555;height:140%;left:0px;margin:0px;padding:0px;position:absolute;top:0px;visibility:hidden;width:100%;z-index:1000;}
+#containerDiv,#containerDiv2 {position: absolute;width: 700px;height:550px;z-index: 99998; overflow:hidden;border: 2px solid #ccc;background-color: white;}
+#containerDiv iframe,#containerDiv2 iframe{	position: relative;text-align: center;width: 675px; padding:10px;height:550px;z-index: 99998; overflow:hidden;	}
+#closeLink { position:absolute; top:25px; right:5px; color:#333;z-index: 99999; }
+#containerDiv2 p { width:600px;}
+
+.noLawyerImg{ width:100px; float:left; margin-right:10px; display:block; }
+.noLawyerImg img{  -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; width:100px; }
+.noLawyerLawyer{ width:220px; float:left; color:#5BBD01;  }
+.noLawyerLawyer h4{ font-size:20px; margin-top:20px;}
+.noLawyerLawyer span{ font-size:16px; font-style:italic; margin-top:10px; display:block;}
+.noLawyerClear{ height:10px; clear:both; width:100%;}

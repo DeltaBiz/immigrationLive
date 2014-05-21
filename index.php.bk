@@ -1,0 +1,82 @@
+<?php
+echo 'Coming Soon.';
+/*
+$title = "Divorce and Family Lawyer -- Victor Giourgas";
+$metaDesc = "family law, divorce law, family lawyer, divorce lawyer, separation, divorce, common law, child support, spousal support, child maintenance, alimony, maintenance, custody, access, guardianship, separation agreement, domestic contract, husband, wife, partner, spouse,";
+$page = "home";
+$banner = "Helping you find the best Divorce and Family Lawyer throughout Canada and the USA.";
+$video = "ca_id_home_qtp.mp4";
+$image = "video_bg2.jpg";
+
+//-----extract data from table-------//
+require_once 'includes/init.php';
+
+if ( isset($_GET['href_name']) ) { 
+	
+	$db->query("SELECT a.page_name,	a.page_content, b.menu_banner_text, b.menu_page_name FROM m_page_content a, m_menu_main b WHERE b.href_name = '". $_GET['href_name'] ."' AND b.href_link = a.page_id UNION SELECT a.page_name, a.page_content, b.sub_menu_banner_text, b.sub_menu_page_name FROM m_page_content a, m_menu_sub b WHERE b.href_name = '". $_GET['href_name'] ."' AND b.href_link = a.page_id");		
+	
+	if ( $db->numRows == 0 ) {
+		
+		$db->query("SELECT page_name, page_content FROM	m_page_content WHERE LEFT(page_name, 5) = '". substr($_GET['href_name'], 0, 5) ."' LIMIT 1");
+
+		$data = $db->nextRow();
+		$content = $data['page_content'];
+		
+	} else {
+		
+		$data = $db->nextRow();
+		
+		$banner = $data['menu_banner_text'];
+		$title = $data['menu_page_name'];
+		if ( empty($banner) ) {
+			$banner = "Helping you find the best Divorce and Family Lawyer throughout Canada and the USA.";
+		} //end if
+		
+		$content = '<h2>'. $data['page_name'] .'<h2>';
+		$content .= $data['page_content'];
+	
+	} //end if
+
+} else { 
+	
+	$db->query("SELECT a.page_name,	a.page_content, b.menu_banner_text, b.menu_page_name FROM	m_page_content a, m_menu_main b WHERE (b.href_name = '". $_GET['href_name'] ."' OR b.href_name IS NULL) AND b.href_link = a.page_id LIMIT 1");
+
+	$data = $db->nextRow();				
+	$banner = $data['menu_banner_text'];
+	$title = $data['menu_page_name'];
+	if ( empty($banner) ) {
+		$banner = "Helping you find the best Divorce and Family Lawyer throughout Canada and the USA.";
+	} //end if	
+	$content = $data['page_content'];
+	
+} //end if
+
+
+include 'header.php';
+?>
+<div class="leftContent">
+<br />
+	<?=$content?>
+</div>
+
+<div class="rightContent">
+
+	<? include 'lawyer_window.php'; ?>
+    <div class="clear"></div>
+	<? include 'divorce_news.php'; ?>
+</div>
+
+<div class="clear"></div>
+
+<? $enqScript .= "var slider2 = new Control.Slider('handle1', 'track1', {
+				axis: 'vertical',
+				onSlide: function(v) { scrollVertical(v, $('newsInner'), slider2);  },
+				onChange: function(v) { scrollVertical(v, $('newsInner'), slider2); }
+			});
+if ($('newsInner').scrollHeight <= $('newsInner').offsetHeight) {
+	slider2.setDisabled();
+	$('wrap1').hide();
+}";
+
+include 'footer.php'; 
+*/ ?>
